@@ -25,6 +25,6 @@ int main(){
 
     int max_of_four(int a, int b, int c, int d){
 
-    return std::max(std::max(a, b), std::max(c, d));
+    return std::max({a, b, c, d});
 
     }
