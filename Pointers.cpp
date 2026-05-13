@@ -6,10 +6,6 @@ int main(){
 
     int a, b;
 
-    int *p = &a;
-
-    int *c = &b;
-
     std::cin >> a;
 
     std::cin >> b;
