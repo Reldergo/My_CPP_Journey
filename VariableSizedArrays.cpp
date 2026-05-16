@@ -8,9 +8,7 @@ int main(){
 
     std::vector<std::vector<int>> main_arr;
 
-    std::cin >> n;
-
-    std::cin >> q;
+    std::cin >> n >> q;
 
     for(int i = 0; i < n; i++){
 
@@ -34,9 +32,7 @@ int main(){
 
         int num, index;
 
-        std::cin >> num;
-
-        std::cin >> index;
+        std::cin >> num >> index;
 
         std::cout << main_arr[num][index] << std::endl;
 
